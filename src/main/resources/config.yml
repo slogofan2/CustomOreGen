@@ -16,8 +16,10 @@ generators:
     blocks:
     # Please use Bukkit-Blocknames. List: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
     - STONE:50.0
-    - SANDSTONE:40.0
-    - IRON_ORE:10.0
+    - SANDS:40.0
+    - IRON_ORE:90.0
+    -DIAMOND_ORE:50.0
+..  -WHITE_CONCRETE:40.0  
     permission: ''
     # You can also define from what level the generator should be activated. Example: Leave all permissions empty and
     # only work with the island Level. The plugin would only consider the islandLevel then.
@@ -34,3 +36,4 @@ generators:
 # Here you can define worlds where the generator should not work
 disabled-worlds:
 - "world_nether"
+- "world_end" 
